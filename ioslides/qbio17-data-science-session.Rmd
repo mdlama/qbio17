@@ -442,6 +442,16 @@ Forked from [Radiant](https://radiant-rstats.github.io/docs/) developed by [Vinc
 
 Radiant was developed for teaching Business Analytics.
 
+## One more thing...
+
+<div class="centered">
+<a class="image-border" href="https://rstudio.github.io/learnr">
+<img src="imgs/learnr.png" width="90%">
+</a>
+
+[learnr](https://rstudio.github.io/learnr)
+</div>
+
 ## Wrap-up: References
 
 > "'Do experienced programmers use Google frequently?'<br \>
