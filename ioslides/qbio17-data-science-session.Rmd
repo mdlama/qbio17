@@ -16,11 +16,11 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Who are you?
 
-<iframe src="https://embed.polleverywhere.com/multiple_choice_polls/z2igyt98dIf28hI?controls=none&short_poll=true" width="100%" height="600px" frameBorder="0"></iframe>
+<iframe src="https://embed.polleverywhere.com/multiple_choice_polls/z2igyt98dIf28hI?controls=none&short_poll=true" width="100%" height="550px" frameBorder="0"></iframe>
 
 ## For those that must be different...
 
-<iframe src="https://embed.polleverywhere.com/free_text_polls/B3QNu9te4vgKhsC?controls=none&short_poll=true" width="100%" height="100%" frameBorder="0"></iframe>
+<iframe src="https://embed.polleverywhere.com/free_text_polls/B3QNu9te4vgKhsC?controls=none&short_poll=true" width="100%" height="550px" frameBorder="0"></iframe>
 
 ## Regardless of reason...
 
@@ -32,13 +32,18 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Open Presentation
 
-- Go to GitHub
-- Create an account
-- Search for "mdlama/qbio17"
-- Fork!
-- Go to RStudio Server
-- Create new project from repo
-- Open presentation and knit: Boom!
+- Go to https://qubeshub.org
+- Navigate to your Dashboard 
+
+<div class="centered">
+<img src="imgs/dashboard.png" width="40%">
+</div>
+
+- Go to My Tools -> All Tools
+- Heart Jupyter Notebooks, RStudio, and Serenity
+- Launch RStudio
+- Click on New Project -> Version Control -> Git
+- Enter in https://github.com/mdlama/qbio17
 
 ## Vision for a data science course
 
@@ -311,14 +316,153 @@ From presentation by Hadley Wickham ([\@hadleywickham](https://twitter.com/hadle
 [Data Carpentry](https://www.datacarpentry.org/) and [Software Carpentry](https://software-carpentry.org/)
 </div>
 
-## Data Science in the Classroom | Software Tools
+## Data Science in the Classroom | Software on QUBES
 
 <div class="centered">
 <img src="imgs/HexTess.png" width="80%">
 </div>
 
-## Software Tools on QUBES
+## Software on QUBES | Jupyter Notebooks
 
-> - **Jupyter Notebooks**: [Launch on QUBES](https://qubeshub.org/tools/jupyter/invoke)
-> - **RStudio**: [Launch on QUBES](https://qubeshub.org/tools/rstudio/invoke)
-> - **Serenity**: [Launch on QUBES](https://qubeshub.org/tools/serenity/invoke)
+<div class="centered">
+<img src="https://cdn-images-1.medium.com/max/800/1*j4ji49J3lTTNUvSsNsg6LA.png" height="300px">
+
+[Launch on QUBES](https://qubeshub.org/tools/jupyter/invoke)
+</div>
+
+<div class="footer">
+Presentation describing the future of Jupyter:  [JupyterLab, PyData Seattle 2017](https://channel9.msdn.com/Events/PyData/Seattle2017/BRK11)
+</div>
+
+## Project Jupyter | JupyterLab (coming soon!)
+
+<div class="centered">
+<img src="http://blog.jupyter.org/content/images/2016/07/jlab-screenshot-nb-con-term-2.png" width="80%">
+</div>
+
+## Project Jupyter | nbgrader (coming "soon" to QUBES!)
+
+```{r, out.height="300px"}
+vembedr::embed_youtube(id = "5WUm0QuJdFw")
+```
+
+<div class="footer">
+[nbgrader documentation](http://nbgrader.readthedocs.io/en/stable/)
+</div>
+
+## Software on QUBES | RStudio Server, R Markdown, and R Notebooks
+
+<div class="centered">
+<a class="image-border" href="https://www.rstudio.com/">
+![](https://d21ii91i3y6o6h.cloudfront.net/gallery_images/from_proof/9288/large/1447092155/rstudio-hexbin-sticker-from-rstudio.png)
+</a>
+<a class="image-border" href="http://rmarkdown.rstudio.com/">
+![](https://d21ii91i3y6o6h.cloudfront.net/gallery_images/from_proof/9305/small/1447176269/rstudio-hex-rmarkdown-dot-psd.png)
+</a>
+<a class="image-border" href="https://yihui.name/knitr/">
+![](https://d21ii91i3y6o6h.cloudfront.net/gallery_images/from_proof/9298/small/1447173889/rstudio-hex-knitr-dot-psd.png)
+</a>
+</div>
+
+<div class="centered">
+[Launch on QUBES](https://qubeshub.org/tools/rstudio/invoke)
+</div>
+
+## Software on QUBES | Shiny: Creating GUI web apps in R
+
+<span style="position: absolute; top: 40px; right: 60px; height: 100px;">
+<a class="image-border" href="https://shiny.rstudio.com/"><img src="https://d21ii91i3y6o6h.cloudfront.net/gallery_images/from_proof/9306/small/1447177198/rstudio-hex-shiny-dot-psd.png" height="100px"></a>
+</span>
+
+<div class="centered">
+<a class="image-border" href="https://shiny.rstudio.com/gallery/kmeans-example.html">
+<img src="imgs/shiny-example.png" width="80%">
+</a>
+
+[K-means Example](https://shiny.rstudio.com/gallery/kmeans-example.html)
+</div>
+
+<div class="footer">
+<a href="https://qubeshub.org/tools/wooddensity/invoke">Shiny app published on QUBES from Faculty Mentoring Network</a>
+</div>
+
+## Software on QUBES | Interactive Web Documents
+
+<span style="position: absolute; top: 40px; right: 60px; height: 100px;">
+<a class="image-border" href="http://rmarkdown.rstudio.com/"><img src="https://d21ii91i3y6o6h.cloudfront.net/gallery_images/from_proof/9305/small/1447176269/rstudio-hex-rmarkdown-dot-psd.png" height="100px"></a>
+<a class="image-border" href="https://shiny.rstudio.com/"><img src="https://d21ii91i3y6o6h.cloudfront.net/gallery_images/from_proof/9306/small/1447177198/rstudio-hex-shiny-dot-psd.png" height="100px"></a>
+<a class="image-border" href="http://www.htmlwidgets.org/"><img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" height="100px"></a>
+</span>
+
+<div class="centered">
+<a class="image-border" href="http://www.htmlwidgets.org/">
+<img src="imgs/htmlwidgets.png" width="90%">
+</a>
+
+http://www.htmlwidgets.org/
+</div>
+
+## Software on QUBES | Dashboards (Shiny or Flex)
+
+<div class="centered">
+<a class="image-border" href="https://beta.rstudioconnect.com/jjallaire/htmlwidgets-waste-sites/htmlwidgets-waste-sites.html">
+<img src="imgs/nucleardashboard.jpg" width="90%">
+</a>
+
+<div class="footer">
+[WASTE LANDS - AMERICA’S FORGOTTEN NUCLEAR LEGACY](https://beta.rstudioconnect.com/jjallaire/htmlwidgets-waste-sites/htmlwidgets-waste-sites.html)
+
+## Software on QUBES | Serenity: Bridging the coding gap
+
+<span style="position: absolute; top: 40px; right: 60px; height: 100px;">
+<a class="image-border" href="https://github.com/serenity-r"><img src="imgs/serenity.png" height="100px"></a>
+
+> - FOCUSED ON EDUCATION
+> - Shiny web app
+> - Focus on data life cycle
+> - GUI based, like JMP
+> - Code creation from GUI actions for reproducible report
+> - Default to tidyverse, but allow base R
+> - Easy drag-and-drop creation of dashboards
+> - Use pipes user-interface for data life cycle
+> - Use modern visualization tools
+> - Database connections
+
+<div class="footer">
+[Launch on QUBES](https://qubeshub.org/tools/serenity/invoke)
+</div>
+
+## Software on QUBES | Serenity: Bridging the coding gap {.build}
+
+Current version is in development (alpha).
+
+Forked from [Radiant](https://radiant-rstats.github.io/docs/) developed by [Vincent Nijs](http://rady.ucsd.edu/faculty/directory/nijs/).
+
+![](http://rady.ucsd.edu/images/faculty-headshot-nijs.jpg)
+
+Radiant was developed for teaching Business Analytics.
+
+## Wrap-up: References
+
+> "'Do experienced programmers use Google frequently?'<br \>
+The resounding answer is YES, experienced (and good) programmers use Google… a lot. In fact, one might argue they use it more than the beginners."<br \> <span style="float:right;"> - <a href="https://codeahoy.com/2016/04/30/do-experienced-programmers-use-google-frequently/">Umer Mansoor</a></span>
+
+<br \>
+[RStudio cheatsheets](https://www.rstudio.com/resources/cheatsheets/)
+
+[RExRepos](http://dwoll.de/rexrepos/)
+
+## Wrap-up: #rstats community rocks!
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">My whole lab has decided to learn R this summer. We have <a href="https://twitter.com/hadleywickham">@hadleywickham</a> books! Any online courses or tutorials you <a href="https://twitter.com/hashtag/rstats?src=hash">#rstats</a> people recommend?</p>&mdash; Tessa Hill (@Tessa_M_Hill) <a href="https://twitter.com/Tessa_M_Hill/status/888420704533618688">July 21, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+## Thank you
+
+Some QUBES communities and resources:
+
+- [QUBES Community Group: Using R in the classroom](https://qubeshub.org/groups/teaching_r)
+- [Collections in the Using R group](https://qubeshub.org/groups/teaching_r/collections)
+- [RStudio Server](https://qubeshub.org/tools/rstudio/invoke)
+- [Introduction to Biostatistics (BIOL 327) at William and Mary](https://qubeshub.org/courses/wmbiostat)
+- [The Analysis of Biological Data by Whitlock & Schluter - QUBES Group](https://qubeshub.org/groups/abd)

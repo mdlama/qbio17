@@ -1,0 +1,20 @@
+---
+title: "Leaflet Example (HTMLWidget)"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+library(plotly)
+```
+
+## Plotly
+
+You can also embed interactive plots, for example:
+
+```{r plotly, message=FALSE}
+p <- ggplot(data = diamonds, aes(x = cut, fill = clarity)) +
+            geom_bar(position = "dodge")
+ggplotly(p)
+```
