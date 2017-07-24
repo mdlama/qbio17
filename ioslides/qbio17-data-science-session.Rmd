@@ -21,11 +21,11 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Who are you?
 
-<iframe src="https://embed.polleverywhere.com/multiple_choice_polls/z2igyt98dIf28hI?controls=none&short_poll=true" width="100%" height="550px" frameBorder="0"></iframe>
+<iframe src="https://embed.polleverywhere.com/multiple_choice_polls/z2igyt98dIf28hI?controls=none&short_poll=true" width="100%" height="500px" frameBorder="0"></iframe>
 
 ## For those that must be different...
 
-<iframe src="https://embed.polleverywhere.com/free_text_polls/B3QNu9te4vgKhsC?controls=none&short_poll=true" width="100%" height="550px" frameBorder="0"></iframe>
+<iframe src="https://embed.polleverywhere.com/free_text_polls/B3QNu9te4vgKhsC?controls=none&short_poll=true" width="100%" height="500px" frameBorder="0"></iframe>
 
 ## Regardless of reason...
 
@@ -33,33 +33,33 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - Introduce you to data science
 - Introduce you to R
-- Discuss some state-of-the-art tools for classroom use
+- Discuss some state-of-the-art tools for data exploration and visualization, with the context of classroom use
 
-## Open Presentation
+## Open, Interactive Presentation { .build }
 
-- Go to https://qubeshub.org
-- Navigate to your Dashboard 
+> - Go to https://qubeshub.org
+> - Navigate to your Dashboard
 
 <div class="centered">
 <img src="imgs/dashboard.png" width="40%">
 </div>
 
-- Go to My Tools -> All Tools
-- Heart Jupyter Notebooks, RStudio, and Serenity
-- Launch RStudio
-- Click on New Project -> Version Control -> Git
-- Enter in https://github.com/mdlama/qbio17
+> - Go to My Tools -> All Tools
+> - Heart Jupyter Notebooks, RStudio, and Serenity
+> - Launch RStudio
+> - Click on New Project -> Version Control -> Git
+> - Enter in https://github.com/mdlama/qbio17
 
 ## Vision for a data science course
 
 <div class="columns-2">
 (based on [talk](https://github.com/mine-cetinkaya-rundel/2017-07-05-teach-ds-to-new-user) by [Mine Çetinkaya-Rindel](http://www2.stat.duke.edu/~mc301/) at [useR2017](https://user2017.brussels/))
 
-- modern
-- put data front and center
-- quantitative (but not *mathematical*)
-- different than high school stats
-- challenging (but not *intimidating*)
+> - modern
+> - put data front and center
+> - quantitative (but not *mathematical*)
+> - different than high school stats
+> - challenging (but not *intimidating*)
 
 ![](imgs/mine-pic.jpg)
 </div>
@@ -85,7 +85,8 @@ Based on [talk](https://github.com/mine-cetinkaya-rundel/2017-07-05-teach-ds-to-
 Important missing piece:  *Where does the data come from?* (e.g. **Experimental Design**)
 
 <div class="footer">
-Based on [talk](https://github.com/mine-cetinkaya-rundel/2017-07-05-teach-ds-to-new-user) by [Mine Çetinkaya-Rindel](http://www2.stat.duke.edu/~mc301/)
+Based on [talk](https://github.com/mine-cetinkaya-rundel/2017-07-05-teach-ds-to-new-user) by [Mine Çetinkaya-Rindel](http://www2.stat.duke.edu/~mc301/) <br \>
+Image from [http://r4ds.had.co.nz](R for Data Science), by Garrett Grolemund and Hadley Wickham
 </div>
 
 ## Vision for a data science course | Teach (not just expect) reproducible computation
@@ -98,16 +99,21 @@ Based on [talk](https://github.com/mine-cetinkaya-rundel/2017-07-05-teach-ds-to-
 
 ## Vision for a data science course | Approach statistics from a model based perspective
 
+<div class="centered">
+<img src="imgs/POMPOS.png" width="280px">
+</div>
+
 <div class="footer">
-Based on [talk](https://github.com/mine-cetinkaya-rundel/2017-07-05-teach-ds-to-new-user) by [Mine Çetinkaya-Rindel](http://www2.stat.duke.edu/~mc301/)
+Based on [talk](https://github.com/mine-cetinkaya-rundel/2017-07-05-teach-ds-to-new-user) by [Mine Çetinkaya-Rindel](http://www2.stat.duke.edu/~mc301/) <br \>
+Image from Invitation to Modeling session at 2:00 and 6:30 [C102]
 </div>
 
 ## Vision for a data science course | Pedagogical recommendations
 
-- Encourage and enforce working collaboritavely (think, code, write, present)
-- Underscore effective communication of findings
-- **Ask questions students want to answer**
-- **Equip students with the tools to answer questions of their own choosing**
+> - Encourage and enforce working collaboritavely (think, code, write, present)
+> - Underscore effective communication of findings
+> - **Ask questions students want to answer**
+> - **Equip students with the tools to answer questions of their own choosing**
 
 <div class="footer">
 Based on [talk](https://github.com/mine-cetinkaya-rundel/2017-07-05-teach-ds-to-new-user) by [Mine Çetinkaya-Rindel](http://www2.stat.duke.edu/~mc301/)
@@ -124,9 +130,11 @@ Based on [talk](https://github.com/mine-cetinkaya-rundel/2017-07-05-teach-ds-to-
 
 ## What is data science anyways?
 
-<div class="centered">
-Data science is:<br \><br \> Applied stat<br \> Data skills<br \> Computational skills
-</div>
+### Data science "is"
+
+> - *Applied* statistics (statistical modeling)
+> - Data skills (exploratory data analysis and visualization)
+> - Computational skills (scripting; reproducibility)
 
 ## Data science is everywhere | New York Times
 
@@ -150,13 +158,39 @@ Data science is:<br \><br \> Applied stat<br \> Data skills<br \> Computational 
 <a class="image-border" href="https://www.tableau.com/">
 <img src="https://tableau.lcsexams.com/images/TableauLogo.jpg">
 </a>
+</div>
 
-### For educational use:
+### For educational use? {.build}
 
 <a class="image-border" href="https://public.tableau.com/s/">
 <img src="https://public.tableau.com/s/sites/all/themes/revizit/images/public-logo-transparent-666.png">
 </a>
 </div>
+
+## Sleep Cycle alarm clock
+
+<div class="centered">
+<a class="image-border" href="https://www.sleepcycle.com/">
+<img src="imgs/sleepapp.png" width="90%">
+</a>
+</div>
+
+> - Students measured sleep over one month, recorded factors of interest (test next day, spring break, sleep location, etc.), and analyzed against sleep quality.
+
+## Business
+
+<div class="centered">
+<a class="image-border" href="http://algorithms-tour.stitchfix.com/">
+<img src="imgs/stitchfix.png" width="90%">
+</a>
+
+<a class="image-border" href="https://www.stitchfix.com/">
+<img src="imgs/stitchfix_what.png" width="90%">
+</a>
+</div>
+
+<span style="position: absolute; top: 40px; right: 60px; height: 100px;">
+<a class="image-border" href="https://www.stitchfix.com/"><img src="http://blog.stitchfix.com/wp-content/uploads/2013/10/Logo_StitchFix_markTop_300pxw.jpg?w=240" height="100px"></a>
 
 ## What about for biology?
 
@@ -185,16 +219,16 @@ $^2$ Mills, B. Introducing mozilla science study groups. Mozilla (22 April 2015)
 
 Reasons researchers do not publish reproducibly ([Borgman, 2007](http://www.dlib.org/dlib/january17/nuest/01nuest.html)):
 
-- a lack of incentives in terms of citations or promotion
-- the effort required to clean data and codes
-- the creation of a competitive advantage over other fellows
-- intellectual property issues
+> - a lack of incentives in terms of citations or promotion
+> - the effort required to clean data and codes
+> - the creation of a competitive advantage over other fellows
+> - intellectual property issues
 
-<div class="centered">
+<span style="position: absolute; top: 40px; right: 60px; height: 100px;">
 <a class="image-border" href="https://cos.io/">
-<img src="https://cdn.cos.io/static/images/cos_stack.png" width="200px">
+<img src="https://cdn.cos.io/static/images/cos_stack.png" height="100px">
 </a>
-</div>
+</span>
 
 ## Where can I learn/practice my skills?
 
@@ -206,7 +240,7 @@ DataCamp is free for every participant during the Summer Workshop!!
 
 <a href="https://www.datacamp.com/groups/08e4a1a457e123fb3e4e49a9a66d18d7e760d6e3/invite">Click to join group</a>
 
-## DataCamp curriculum
+## DataCamp R curriculum
 
 <div class="centered">
 <a class="image-border" href="https://qubeshub.org/blog/2017/05/using-datacamp-to-help-teach-data-science-in-a-biostatistics-class">
@@ -218,7 +252,7 @@ DataCamp is free for every participant during the Summer Workshop!!
 Image from blog https://qubeshub.org/blog/2017/05/using-datacamp-to-help-teach-data-science-in-a-biostatistics-class
 </div>
 
-## DataCamp curriculum | [tidyverse](http://tidyverse.org)
+## DataCamp R curriculum | [tidyverse](http://tidyverse.org)
 
 <div class="centered">
 <img src="imgs/tidyverse_hexed.png" width="80%">
@@ -236,7 +270,7 @@ Image from blog https://qubeshub.org/blog/2017/05/using-datacamp-to-help-teach-d
 [http://r4ds.had.co.nz/wrangle-intro.html](R for Data Science, Part II: Wrangle), by Garrett Grolemund and Hadley Wickham
 </div>
 
-## tidyverse | Importing Data
+## tidyverse | Importing data
 
 <div class="centered">
 <a class="image-border" href="https://www.datacamp.com/community/tutorials/r-data-import-tutorial#gs.bsktf80">
@@ -253,10 +287,11 @@ Image from blog https://qubeshub.org/blog/2017/05/using-datacamp-to-help-teach-d
 </span>
 
 <div class="footer">
-Image from [This R Data Import Tutorial Is Everything You Need](https://www.datacamp.com/community/tutorials/r-data-import-tutorial#gs.bsktf80) by Karlijn Willems
+Image from [This R Data Import Tutorial Is Everything You Need](https://www.datacamp.com/community/tutorials/r-data-import-tutorial#gs.bsktf80) by Karlijn Willems <br \>
+(Caveat: *July 21st, 2015*)
 </div>
 
-## tidyverse | Data cleaning with tidyr
+## tidyverse | Cleaning data
 
 <div class="centered">
 <img src="imgs/BigDataBorat.png" height="200px">
@@ -272,7 +307,7 @@ Image from [This R Data Import Tutorial Is Everything You Need](https://www.data
 From presentation [UBC STAT545 2015 cm103 Data cleaning via Gapminder](https://speakerdeck.com/jennybc/ubc-stat545-2015-cm103-data-cleaning-via-gapminder) <br \>by Jenny Bryan ([\@jennybryan](https://twitter.com/jennybryan))
 </div>
 
-## tidyverse | Data manipulation with dplyr
+## tidyverse | Manipulating data
 
 <div class="centered">
 <img src="imgs/hadleytheman.jpg" height="400px">
@@ -288,7 +323,7 @@ From presentation [UBC STAT545 2015 cm103 Data cleaning via Gapminder](https://s
 From presentation by Hadley Wickham ([\@hadleywickham](https://twitter.com/hadleywickham))
 </div>
 
-## Step 2: Data Visualization {.vcenter .flexbox}
+## Step 2: Visualizing data {.vcenter .flexbox}
 
 ![](imgs/data-science-explore.png)
 
@@ -298,8 +333,10 @@ From presentation by Hadley Wickham ([\@hadleywickham](https://twitter.com/hadle
 
 ## tidyverse | Visualizing data with ggplot2
 
-<div class="centered">
-<img src="imgs/hadleytheman.jpg" height="400px">
+<div class="columns-2">
+<img src="https://images-na.ssl-images-amazon.com/images/I/41vxLcctHhL._SX311_BO1,204,203,200_.jpg" height="400px">
+
+<img src="http://www.statmethods.net/advgraphs/images/ggplotboxplot.png" height="400px">
 </div>
 
 <span style="position: absolute; top: 40px; right: 60px; height: 100px;">
@@ -421,23 +458,28 @@ http://www.htmlwidgets.org/
 
 <span style="position: absolute; top: 40px; right: 60px; height: 100px;">
 <a class="image-border" href="https://github.com/serenity-r"><img src="imgs/serenity.png" height="100px"></a>
+</span>
 
 > - FOCUSED ON EDUCATION
 > - Shiny web app
 > - Focus on data life cycle
-> - GUI based, like JMP
-> - Code creation from GUI actions for reproducible report
+> - GUI based, like JMP...
+> - ...but creates code from GUI actions for reproducible report
 > - Default to tidyverse, but allow base R
 > - Easy drag-and-drop creation of dashboards
 > - Use pipes user-interface for data life cycle
-> - Use modern visualization tools
-> - Database connections
+> - Use modern visualization tools (htmlwidgets)
+> - Database + Google Sheet connections
 
 <div class="footer">
 [Launch on QUBES](https://qubeshub.org/tools/serenity/invoke)
 </div>
 
 ## Software on QUBES | Serenity: Bridging the coding gap {.build}
+
+<span style="position: absolute; top: 40px; right: 60px; height: 100px;">
+<a class="image-border" href="https://github.com/serenity-r"><img src="imgs/serenity.png" height="100px"></a>
+</span>
 
 Current version is in development (alpha).
 
@@ -467,6 +509,10 @@ The resounding answer is YES, experienced (and good) programmers use Google… a
 
 [RExRepos](http://dwoll.de/rexrepos/)
 
+[Quick-R](http://www.statmethods.net/index.html)
+
+[R for Data Science](http://r4ds.had.co.nz/)
+
 ## Wrap-up: #rstats community rocks!
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">My whole lab has decided to learn R this summer. We have <a href="https://twitter.com/hadleywickham">@hadleywickham</a> books! Any online courses or tutorials you <a href="https://twitter.com/hashtag/rstats?src=hash">#rstats</a> people recommend?</p>&mdash; Tessa Hill (@Tessa_M_Hill) <a href="https://twitter.com/Tessa_M_Hill/status/888420704533618688">July 21, 2017</a></blockquote>
@@ -481,3 +527,10 @@ Some QUBES communities and resources:
 - [RStudio Server](https://qubeshub.org/tools/rstudio/invoke)
 - [Introduction to Biostatistics (BIOL 327) at William and Mary](https://qubeshub.org/courses/wmbiostat)
 - [The Analysis of Biological Data by Whitlock & Schluter - QUBES Group](https://qubeshub.org/groups/abd)
+- [Serenity: Follow the development!](https://github.com/serenity-r)
+
+Remember:  [DataCamp](https://www.datacamp.com/home) is free for you this week!
+
+<div class="footer">
+[M. Drew LaMar](http://people.wm.edu/~mdlama/)
+</div>
