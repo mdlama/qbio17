@@ -1,5 +1,6 @@
 ---
-title: "qbio17-data-science-session"
+title: "Data Science in the Undergraduate Biology Classroom using R"
+author: Drew LaMar and Gaby Hamerlinck
 font-family: Droid Serif
 output:
   ioslides_presentation:
@@ -13,6 +14,10 @@ knitr::opts_chunk$set(echo = FALSE)
 
 <!-- Pull in Droid Serif google font -->
 <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700" rel="stylesheet">
+
+<div class="footer">
+[Making Meaning through Modeling: Problem solving in Biology](https://qubeshub.org/groups/summer2017), Summer Workshop 2017
+</div>
 
 ## Who are you?
 
